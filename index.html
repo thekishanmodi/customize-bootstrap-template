@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customize Bootstrap Template</title>
+    <meta name="description"
+          content="Standard bootstrap template with all components, form, creative layout, and fully responsive.">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+    <link rel='icon' type='image/x-icon' href='assets/images/favicon.png'/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick-slider.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <div class="loader-inner">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-up-long"></i></a>
+
+<div class="header-top light-background py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="contact-info">
+                    <li>
+                        <a href="mailto:service.company@gmail.com" class="contact-link">
+                            <i class="fa-regular fa-envelope primary-color mr-2"></i> service.company@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+919988877666" class="contact-link">
+                            <i class="fa-solid fa-phone-flip primary-color mr-2"></i> +91 99888 77666</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-right">
+                <ul class="social-media">
+                    <li><a target="_blank" href="https://www.behance.net"><i class="fa-brands fa-behance primary-color"></i></a></li>
+                    <li><a target="_blank" href="https://dribbble.com"><i class="fa-brands fa-dribbble primary-color"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f primary-color"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-instagram primary-color"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in primary-color"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com"><i class="fa-brands fa-youtube primary-color"></i></a></li>
+                    <li><a target="_blank" href="https://in.pinterest.com"><i class="fa-brands fa-pinterest-p primary-color"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="position-sticky bg-white" style="top:0">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="config"></a>
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resource
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#whyConfig">Why Config</a>
+                            <div class="dropdown-submenu">
+                                <a class="dropdown-item d-flex align-items-center justify-content-between"
+                                   href="#benefits">
+                                    Benefits <i class="fa-solid fa-angle-right"></i></a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="javascript:void(0)">Expertise</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Expertise</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Features</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Journal</a>
+                                </div>
+                            </div>
+                            <a class="dropdown-item" href="#faqs">FAQs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-btn" href="#requestConsultation">Let's talk</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="homeBannerCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/images/banner-image.jpg" alt="banner-image" class="embed-responsive">
+            <div class="container d-flex justify-content-end h-100">
+                <div class="carousel-caption light-background text-left mr-sm-5">
+                    <h1>Lorem ipsum<br>dolor sit<br> <span class="primary-color">amet</span>.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="assets/images/banner-image-2.jpg" alt="banner-image" class="embed-responsive">
+            <div class="container d-flex justify-content-end h-100">
+                <div class="carousel-caption light-background text-left mr-sm-5">
+                    <h1>Lorem ipsum<br>dolor sit<br> <span class="primary-color">amet</span>.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#homeBannerCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#homeBannerCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+</section>
+
+<section id="about" class="inner-space light-background">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <h2 class="section-title">Lorem ipsum is <span class="primary-color">dummy text</span> used in laying
+                    out
+                    graphic or web designs.</h2>
+            </div>
+            <div class="col-md-6">
+                <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut, dignissimos
+                    labore libero neque provident quam tempore. Accusantium ad at dolore, facere illum impedit, iusto
+                    nesciunt numquam quisquam veniam voluptas?</p>
+
+                <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut, dignissimos
+                    labore libero neque provident quam tempore. Accusantium ad at dolore, facere illum impedit, iusto
+                    nesciunt numquam quisquam veniam voluptas?</p>
+                <a href="#requestConsultation" class="primary-btn big-btn mt-3">Read More</a>
+            </div>
+        </div>
+
+        <div id="counter-panel" class="row mt-5">
+            <div class="col-lg-3 col-sm-6 mt-3">
+                <h2><span class="primary-color counter" data-count="200">0</span><span
+                        class="counter-info ml-1">+</span></h2>
+                <hr class="divider my-3">
+                <h4 class="counter-info">PROJECTS<br>COMPLETED</h4>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-3">
+                <h2><span class="primary-color counter" data-count="15">0</span><span class="counter-info ml-1">+</span>
+                </h2>
+                <hr class="divider my-3">
+                <h4 class="counter-info">DESIGN<br>AWARDS</h4>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-3">
+                <h2><span class="primary-color counter" data-count="5">0</span><span class="counter-info ml-1">+</span>
+                </h2>
+                <hr class="divider my-3">
+                <h4 class="counter-info">YEARS<br>EXPERIENCE</h4>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-3">
+                <h2><span class="primary-color counter" data-count="20">0</span><span class="counter-info ml-1">+</span>
+                </h2>
+                <hr class="divider my-3">
+                <h4 class="counter-info">HAPPY<br>CLIENTS</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="inner-space text-center">
+    <div class="container">
+        <h2 class="section-title">Featured <span class="primary-color">services</span>.</h2>
+        <div class="row justify-content-around mt-4">
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-panel text-center">
+                    <h3>Lorem ipsum dolor<span class="primary-color">.</span></h3>
+                    <img src="assets/images/icon-high-five.svg" alt="LuckyBird">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-panel text-center">
+                    <h3>Lorem ipsum dolor<span class="primary-color">.</span></h3>
+                    <img src="assets/images/icon-high-five.svg" alt="LuckyBird">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-panel text-center">
+                    <h3>Lorem ipsum dolor<span class="primary-color">.</span></h3>
+                    <img src="assets/images/icon-high-five.svg" alt="LuckyBird">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-panel text-center">
+                    <h3>Lorem ipsum dolor<span class="primary-color">.</span></h3>
+                    <img src="assets/images/icon-high-five.svg" alt="LuckyBird">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-panel text-center">
+                    <h3>Lorem ipsum dolor<span class="primary-color">.</span></h3>
+                    <img src="assets/images/icon-high-five.svg" alt="LuckyBird">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-panel text-center">
+                    <h3>Lorem ipsum dolor<span class="primary-color">.</span></h3>
+                    <img src="assets/images/icon-high-five.svg" alt="LuckyBird">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="whyConfig" class="inner-space light-background">
+    <div class="container">
+        <div class="collapsed-individual">
+            <a class="btn collapsed" data-toggle="collapse" href="#reasonWorkConfig" role="button" aria-expanded="false"
+               aria-controls="reasonWorkConfig">
+                <i class="fa-solid fa-angle-right primary-color"></i> Reasons to work with
+                <span class="primary-color">us</span>.
+            </a>
+            <div class="collapse" id="reasonWorkConfig" style="">
+                <div class="reason-work-point">
+                    <div class="row align-items-center">
+                        <div class="col-lg-1 col-md-2">
+                            <h3 class="primary-color mb-0">1.</h3>
+                        </div>
+                        <div class="col-lg-11 col-md-10">
+                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis
+                                ex impedit ipsum nam quisquam sequi suscipit!</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col-lg-1 col-md-2">
+                            <h3 class="primary-color mb-0">2.</h3>
+                        </div>
+                        <div class="col-lg-11 col-md-10">
+                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis
+                                ex impedit ipsum nam quisquam sequi suscipit!</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col-lg-1 col-md-2">
+                            <h3 class="primary-color mb-0">3.</h3>
+                        </div>
+                        <div class="col-lg-11 col-md-10">
+                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis
+                                ex impedit ipsum nam quisquam sequi suscipit!</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col-lg-1 col-md-2">
+                            <h3 class="primary-color mb-0">4.</h3>
+                        </div>
+                        <div class="col-lg-11 col-md-10">
+                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis
+                                ex impedit ipsum nam quisquam sequi suscipit!</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col-lg-1 col-md-2">
+                            <h3 class="primary-color mb-0">5.</h3>
+                        </div>
+                        <div class="col-lg-11 col-md-10">
+                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis
+                                ex impedit ipsum nam quisquam sequi suscipit!.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="benefits" class="inner-space text-center">
+    <div class="container">
+        <h1 class="section-title mb-3">Our <span class="primary-color">expertise</span>.</h1>
+        <p class="section-tag-line">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores deleniti<br>
+            dolorem facilis fugit maxime odio quis recusandae veniam veritatis.</p>
+        <div class="tab-panel">
+            <ul class="nav nav-tabs row justify-content-center my-3 my-md-5" role="tablist">
+                <li class="nav-item col-lg-3 col-md-4 col-6">
+                    <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Expertise</a>
+                </li>
+                <li class="nav-item col-lg-3 col-md-4 col-6">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Features</a>
+                </li>
+                <li class="nav-item col-lg-3 col-md-4 col-6">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Journal</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                    <div class="table-responsive">
+                        <table class="table table-hover m-0">
+                            <thead class="light-background">
+                            <tr>
+                                <th class="border-0 text-center py-3 bold-text" rowspan="2"><b>Gelegenheid</b></th>
+                                <th class="border-0 text-center py-3 bold-text" rowspan="2"><b>Maximum</b></th>
+                                <th class="border-0 text-center py-3 bold-text fixed-width" colspan="2"><b>Werknemer</b>
+                                </th>
+                                <th class="border-0 text-center py-3 bold-text fixed-width" colspan="3"><b>Werkgever</b>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="border-0 text-center py-3 bold-text fixed-width"><b>Belasting</b></th>
+                                <th class="border-0 text-center py-3 bold-text fixed-width"><b>RSZ</b></th>
+                                <th class="border-0 text-center py-3 bold-text fixed-width"><b>Belasting</b></th>
+                                <th class="border-0 text-center py-3 bold-text fixed-width"><b>RSZ</b></th>
+                                <th class="border-0 text-center py-3 bold-text fixed-width"><b>Btw</b></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="py-3">Sinterklaas, kerst, nieuwjaar...</td>
+                                <td class="py-3">€ 40</td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">Verjaardag werknemer</td>
+                                <td class="py-3">€ 40</td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">Huwelijk of samenwonen</td>
+                                <td class="py-3">€ 245</td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">Anciënniteit: 25 of 35 jaar</td>
+                                <td class="py-3">1x of 2x maandloon</td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">Pensioen of SWT</td>
+                                <td class="py-3">€ 40/j &amp; in totaal € 1000</td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-3">Geboorte of verjaardag kind</td>
+                                <td class="py-3">€ 50</td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                                <td class="py-3 text-center"><i class="fa-solid fa-check primary-color"></i></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tabs-2" role="tabpanel">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <ul class="list-group list-group-flush text-left">
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-10">
+                            <ul class="list-group list-group-flush text-left">
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center px-0">
+                                    <i class="fa-regular fa-star primary-color mr-3"></i>
+                                    <p class="m-0">Lorem ipsum dolor sit amet</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tabs-3" role="tabpanel">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10">
+                            <div class="video-panel">
+                                <img src="assets/images/banner-image.jpg" alt="" class="embed-responsive">
+                                <a href="#" class="video-btn" data-toggle="modal" data-target="#videoModal">
+                                    <img src="assets/images/icon-play.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faqs" class="inner-space light-background text-center">
+    <div class="container">
+        <h2 class="section-title mb-3">Frequently asked <span class="primary-color">questions</span>.</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div id="faqsAccordion" class="text-left">
+                    <div class="accordion-panel my-3">
+                        <button class="primary-btn outline-btn w-100 text-left py-3" data-toggle="collapse"
+                                data-target="#question-1"
+                                aria-expanded="true" aria-controls="question-1">
+                            Question - 1
+                        </button>
+                        <div id="question-1" class="collapse show" data-parent="#faqsAccordion">
+                            <div class="p-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis commodi
+                                debitis
+                                exercitationem expedita maiores obcaecati perferendis perspiciatis quis veritatis?
+                                Aliquam culpa
+                                dolor
+                                est eveniet laborum modi molestias quia tempora.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-panel my-3">
+                        <button class="primary-btn outline-btn w-100 text-left collapsed py-3" data-toggle="collapse"
+                                data-target="#question-2"
+                                aria-expanded="true" aria-controls="question-2">
+                            Question - 2
+                        </button>
+                        <div id="question-2" class="collapse" data-parent="#faqsAccordion">
+                            <div class="p-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis commodi
+                                debitis
+                                exercitationem expedita maiores obcaecati perferendis perspiciatis quis veritatis?
+                                Aliquam culpa
+                                dolor
+                                est eveniet laborum modi molestias quia tempora.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-panel my-3">
+                        <button class="primary-btn outline-btn w-100 text-left collapsed py-3" data-toggle="collapse"
+                                data-target="#question-3"
+                                aria-expanded="true" aria-controls="question-3">
+                            Question - 3
+                        </button>
+                        <div id="question-3" class="collapse" data-parent="#faqsAccordion">
+                            <div class="p-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis commodi
+                                debitis
+                                exercitationem expedita maiores obcaecati perferendis perspiciatis quis veritatis?
+                                Aliquam culpa
+                                dolor
+                                est eveniet laborum modi molestias quia tempora.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="faqsAccordion-2" class="text-left">
+                    <div class="accordion-panel my-3">
+                        <button class="primary-btn outline-btn w-100 text-left collapsed py-3" data-toggle="collapse"
+                                data-target="#question-4"
+                                aria-expanded="true" aria-controls="question-4">
+                            Question - 4
+                        </button>
+                        <div id="question-4" class="collapse" data-parent="#faqsAccordion-2">
+                            <div class="p-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis commodi
+                                debitis
+                                exercitationem expedita maiores obcaecati perferendis perspiciatis quis veritatis?
+                                Aliquam culpa
+                                dolor
+                                est eveniet laborum modi molestias quia tempora.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-panel my-3">
+                        <button class="primary-btn outline-btn w-100 text-left collapsed py-3" data-toggle="collapse"
+                                data-target="#question-5"
+                                aria-expanded="true" aria-controls="question-5">
+                            Question - 5
+                        </button>
+                        <div id="question-5" class="collapse" data-parent="#faqsAccordion-2">
+                            <div class="p-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis commodi
+                                debitis
+                                exercitationem expedita maiores obcaecati perferendis perspiciatis quis veritatis?
+                                Aliquam culpa
+                                dolor
+                                est eveniet laborum modi molestias quia tempora.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-panel my-3">
+                        <button class="primary-btn outline-btn w-100 text-left collapsed py-3" data-toggle="collapse"
+                                data-target="#question-6"
+                                aria-expanded="true" aria-controls="question-6">
+                            Question - 6
+                        </button>
+                        <div id="question-6" class="collapse" data-parent="#faqsAccordion-2">
+                            <div class="p-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis commodi
+                                debitis
+                                exercitationem expedita maiores obcaecati perferendis perspiciatis quis veritatis?
+                                Aliquam culpa
+                                dolor
+                                est eveniet laborum modi molestias quia tempora.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="portfolio" class="outer-space text-center">
+    <div class="container-fluid">
+        <h2 class="section-title mb-3">See our <span class="primary-color">portfolio</span>.</h2>
+        <div class="row px-2">
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="portfolio-panel light-background align-items-center">
+                    <h3><b class="primary-color">lorem ipsum</b></h3>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="portfolio-panel light-background align-items-center">
+                    <h3><b class="primary-color">lorem ipsum</b></h3>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="portfolio-panel light-background align-items-center">
+                    <h3><b class="primary-color">lorem ipsum</b></h3>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="portfolio-panel light-background align-items-center">
+                    <h3><b class="primary-color">lorem ipsum</b></h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="inner-space light-background text-center text-md-left position-relative">
+    <div class="container">
+        <h2 class="section-title text-md-center mb-3">Happy <span class="primary-color">testimonials</span>.</h2>
+        <div class="testimonials-slider">
+            <div class="slide">
+                <div class="testimonial-inner">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-4">
+                            <div class="customer-img">
+                                <img src="assets/images/customer-avatar.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="testimonial-feedback">
+                                <h4>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, optio, quasi?
+                                    Asperiores consectetur et ipsum labore nemo non quas quasi recusandae repellat sint?
+                                    Corporis cupiditate ipsa minus nemo."</h4>
+                                <h5 class="customer-name mt-3 primary-color">Name, Designation</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="testimonial-inner">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-4">
+                            <div class="customer-img">
+                                <img src="assets/images/customer-avatar.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="testimonial-feedback">
+                                <h4>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, optio, quasi?
+                                    Asperiores consectetur et ipsum labore nemo non quas quasi recusandae repellat sint?
+                                    Corporis cupiditate ipsa minus nemo."</h4>
+                                <h5 class="customer-name mt-3 primary-color">Name, Designation</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="requestConsultation" class="inner-space">
+    <div class="container">
+        <h2 class="section-title mb-3 text-center">Request for <span class="primary-color">consultation</span>.</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="ms-form-panel">
+
+                    <div id="ms_steps_svg_wrap"></div>
+
+                    <div class="ms-field-sets">
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="formInput">Full Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter Here..."
+                                               id="formInput"
+                                               required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Hire For</label>
+                                        <div class="custom-radio">
+                                            <div class="custom-control custom-control-inline align-items-center">
+                                                <input type="radio" id="customRadioInline1" name="customRadioInline"
+                                                       class="custom-control-input" checked required>
+                                                <label class="custom-control-label" for="customRadioInline1">Hour
+                                                    base</label>
+                                            </div>
+                                            <div class="custom-control custom-control-inline align-items-center">
+                                                <input type="radio" id="customRadioInline2" name="customRadioInline"
+                                                       class="custom-control-input" required>
+                                                <label class="custom-control-label" for="customRadioInline2">Fixed
+                                                    rate</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formInput3">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Enter Here..."
+                                               id="formInput3"
+                                               required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formInput4">Phone Number</label>
+                                        <input type="text" class="form-control" placeholder="Enter Here..."
+                                               id="formInput4"
+                                               required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="formInput8">Services</label>
+                                        <select class="custom-select d-block w-100 form-control" id="formInput8"
+                                                required="">
+                                            <option value="">I'm interested in</option>
+                                            <option>lorem ipsum</option>
+                                            <option>lorem ipsum</option>
+                                            <option>lorem ipsum</option>
+                                            <option>lorem ipsum</option>
+                                            <option>lorem ipsum</option>
+                                            <option>lorem ipsum</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>File Upload</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="file-upload"
+                                                   aria-describedby="file-upload">
+                                            <label class="custom-file-label" for="file-upload" id="filename">Choose
+                                                file</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="formInput7">Message</label>
+                                        <textarea rows="4" class="form-control" id="" placeholder="Enter Here..."
+                                                  id="formInput7"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="custom-checkbox custom-control custom-control-inline align-items-center">
+                                            <input type="checkbox" class="custom-control-input"
+                                                   id="customControlInline">
+                                            <label class="custom-control-label" for="customControlInline">I agree with
+                                                term &
+                                                condition</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="ms-action-panel mt-4 text-center">
+                        <button type="button" class="ms-action-btn mx-2 primary-btn form-btn outline-btn" id="ms-prev">
+                            Previous
+                        </button>
+                        <button type="button" class="ms-action-btn mx-2 primary-btn form-btn" id="ms-next">Next</button>
+                        <button type="button" class="ms-action-btn mx-2 primary-btn form-btn" id="ms-submit">Submit
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="inner-space light-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-panel">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="assets/images/logo.svg" alt="footer logo"></a>
+                        <p class="footer-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
+                            amet aspernatur corporis dignissimos.</p>
+                        <ul class="social-media">
+                            <li><a target="_blank" href="https://www.behance.net"><i class="fa-brands fa-behance primary-color"></i></a></li>
+                            <li><a target="_blank" href="https://dribbble.com"><i class="fa-brands fa-dribbble primary-color"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f primary-color"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-instagram primary-color"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in primary-color"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com"><i class="fa-brands fa-youtube primary-color"></i></a></li>
+                            <li><a target="_blank" href="https://in.pinterest.com"><i class="fa-brands fa-pinterest-p primary-color"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 order-lg-1">
+                <div class="footer-panel mt-5 mt-sm-0">
+                    <h5 class="primary-color mb-3">Contact info</h5>
+                    <ul class="contact-info">
+                        <li class="mt-2"><i class="fa-regular fa-envelope primary-color mr-2"></i>
+                            <a href="mailto:service.company@gmail.com"
+                               class="contact-link">service.company@gmail.com</a>
+                        </li>
+                        <li class="mt-2"><i class="fa-solid fa-phone-flip primary-color mr-2"></i>
+                            <a href="tel:+919988877666"
+                               class="contact-link">+91 99888 77666</a>
+                        </li>
+                        <li class="mt-2"><i class="fa-solid fa-location-dot primary-color mr-2"></i>
+                            <a target="_blank" href="javascript:void(0)"
+                               class="contact-link">Surat, India</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-panel mt-5 mt-lg-0">
+                    <h5 class="primary-color mb-3">Quick links</h5>
+                    <ul>
+                        <li class="mt-2"><a href="#about" class="footer-link">About us</a></li>
+                        <li class="mt-2"><a href="#services" class="footer-link">Featured services</a></li>
+                        <li class="mt-2"><a href="#portfolio" class="footer-link">See Portfolio</a></li>
+                        <li class="mt-2"><a href="#testimonials" class="footer-link">Happy testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-panel mt-5 mt-lg-0">
+                    <h5 class="primary-color mb-3">Resource</h5>
+                    <ul>
+                        <li class="mt-2"><a href="#whyConfig" class="footer-link">Why choose us</a></li>
+                        <li class="mt-2"><a href="#faqs" class="footer-link">FAQs</a></li>
+                        <li class="mt-2"><a href="#benefits" class="footer-link">Your benefits</a></li>
+                        <li class="mt-2"><a href="#requestConsultation" class="footer-link">Request consultation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-bottom py-4 text-center">
+    <span>© Copyright <script>document.write(new Date().getFullYear());</script> <a href="javascript:void(0)"
+                                                                                    target="_blank">Customize</a>. All rights reserved.</span>
+</div>
+
+<div class="modal fade bd-example-modal-lg video-window" id="videoModal" tabindex="-1" role="dialog"
+     aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close close-popup-btn" data-dismiss="modal"
+                    aria-label="Close">
+                <i class="fa-solid fa-xmark text-white"></i>
+            </button>
+            <iframe width="100%" class="embed-responsive-item iframe-popup"
+                    src="https://www.youtube.com/embed/L0SWmxrNJik?;rel=0;modestbranding=1" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/custom.js"></script>
+</html>
